@@ -4,5 +4,7 @@ __pycache__/
 .venv/
 venv/
 outputs/**/checkpoint-*/
+*.pptx
+Disaster_Tweet_Classification_Paper.pdf
 .DS_Store
 Thumbs.db
