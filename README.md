@@ -21,8 +21,6 @@ These results are measured on deliberately balanced splits. They should not be i
 ```text
 .
 ├── Disaster_Tweet_Classification_Data_Mining_Project.ipynb
-├── Disaster_Tweet_Classification_Data_Mining_Project.pptx
-├── Disaster_Tweet_Classification_Paper.pdf
 ├── data/
 │   ├── raw/                 # Three source dataset archives
 │   └── SHA256SUMS.txt       # Dataset integrity hashes
@@ -55,4 +53,4 @@ By default, the notebook loads the supplied RoBERTa metrics rather than repeatin
 
 Balancing makes false positives and false negatives easier to compare, but it changes real-world class prevalence—especially for CrisisLexT26. In addition, random tweet-level splits may share event-specific language between training and testing. Event-grouped evaluation would be required to claim generalization to unseen disasters.
 
-The included paper is the comparison study used by the project; this repository is a structured reproduction and extension, not an exact rerun of every experiment in that paper.
+This repository is a structured reproduction and extension of the comparison study discussed in the notebook, not an exact rerun of every experiment in that study.
