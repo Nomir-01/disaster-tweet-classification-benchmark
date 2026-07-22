@@ -1,0 +1,22 @@
+{
+  "dataset": "CrisisLexT6",
+  "method": "RoBERTa full fine-tuning",
+  "model": "cardiffnlp/twitter-xlm-roberta-base",
+  "train_rows": 44192,
+  "test_rows": 11048,
+  "max_length": 64,
+  "batch_size": 8,
+  "epochs": 1,
+  "device": "cpu",
+  "train_seconds": 17768.8836592,
+  "total_seconds": 18759.755648500002,
+  "accuracy": 0.9426140477914554,
+  "precision_0": 0.9570093457943926,
+  "recall_0": 0.9268645908761767,
+  "f1_0": 0.9416957881184477,
+  "precision_1": 0.9290979290979291,
+  "recall_1": 0.9583635047067343,
+  "f1_1": 0.9435038317590447,
+  "support_0": 5524,
+  "support_1": 5524
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "Kaggle Disaster Tweets",
+  "method": "RoBERTa full fine-tuning",
+  "model": "cardiffnlp/twitter-xlm-roberta-base",
+  "train_rows": 5233,
+  "test_rows": 1309,
+  "max_length": 64,
+  "batch_size": 8,
+  "epochs": 1,
+  "device": "cpu",
+  "train_seconds": 2157.6715504999993,
+  "total_seconds": 2273.2605226000014,
+  "accuracy": 0.8051948051948052,
+  "precision_0": 0.7915451895043731,
+  "recall_0": 0.8290076335877863,
+  "f1_0": 0.8098434004474273,
+  "precision_1": 0.8202247191011236,
+  "recall_1": 0.7813455657492355,
+  "f1_1": 0.8003132341425215,
+  "support_0": 655,
+  "support_1": 654
+}
